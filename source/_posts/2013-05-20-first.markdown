@@ -1,0 +1,12 @@
+---
+layout: post
+title: "first"
+date: 2013-05-20 15:15
+comments: true
+categories: [first, post]
+---
+ipsum
+<!-- more -->
+est
+{% include_code edge.inl lang:c++ %}
+
