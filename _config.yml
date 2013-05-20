@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
+url: http://lambdu.github.io/lambdu
+title: Test Blog
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: Alec P
 simple_search: http://google.com/search
-description:
+description: default
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
