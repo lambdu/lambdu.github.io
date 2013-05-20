@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: post | Test Blog]]></title>
+  <link href="http://lambdu.github.io/blog/categories/post/atom.xml" rel="self"/>
+  <link href="http://lambdu.github.io/"/>
+  <updated>2013-05-20T16:11:01-07:00</updated>
+  <id>http://lambdu.github.io/</id>
+  <author>
+    <name><![CDATA[Alec P]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[first]]></title>
+    <link href="http://lambdu.github.io/blog/2013/05/20/first/"/>
+    <updated>2013-05-20T15:15:00-07:00</updated>
+    <id>http://lambdu.github.io/blog/2013/05/20/first</id>
+    <content type="html"><![CDATA[<p>ipsum</p>
+
+<!-- more -->
+
+
+<p>est
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (edge.inl)</span> <a href='/downloads/code/edge.inl'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="cm">/*</span>
+</span><span class='line'><span class="cm"> * Default constructor</span>
+</span><span class='line'><span class="cm"> */</span>
+</span><span class='line'><span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">V</span><span class="p">,</span> <span class="k">typename</span> <span class="n">E</span><span class="p">,</span> <span class="k">typename</span> <span class="n">W</span><span class="o">&gt;</span>
+</span><span class='line'><span class="n">Edge</span><span class="o">&lt;</span><span class="n">V</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">W</span><span class="o">&gt;::</span><span class="n">Edge</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="n">weight</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="cm">/*</span>
+</span><span class='line'><span class="cm"> * Initializes the src, dest, label, and weight of the edge</span>
+</span><span class='line'><span class="cm"> */</span>
+</span><span class='line'><span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">V</span><span class="p">,</span> <span class="k">typename</span> <span class="n">E</span><span class="p">,</span> <span class="k">typename</span> <span class="n">W</span><span class="o">&gt;</span>
+</span><span class='line'><span class="n">Edge</span><span class="o">&lt;</span><span class="n">V</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">W</span><span class="o">&gt;::</span><span class="n">Edge</span><span class="p">(</span><span class="n">V</span><span class="o">*</span> <span class="n">src</span><span class="p">,</span> <span class="n">V</span><span class="o">*</span> <span class="n">dest</span><span class="p">,</span> <span class="n">E</span> <span class="n">label</span><span class="p">,</span> <span class="n">W</span> <span class="n">weight</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">this</span><span class="o">-&gt;</span><span class="n">src</span> <span class="o">=</span> <span class="n">src</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">this</span><span class="o">-&gt;</span><span class="n">dest</span> <span class="o">=</span> <span class="n">dest</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">this</span><span class="o">-&gt;</span><span class="n">label</span> <span class="o">=</span> <span class="n">label</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">this</span><span class="o">-&gt;</span><span class="n">weight</span> <span class="o">=</span> <span class="n">weight</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="cm">/*</span>
+</span><span class='line'><span class="cm"> * Getter methods</span>
+</span><span class='line'><span class="cm"> */</span>
+</span><span class='line'><span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">V</span><span class="p">,</span> <span class="k">typename</span> <span class="n">E</span><span class="p">,</span> <span class="k">typename</span> <span class="n">W</span><span class="o">&gt;</span>
+</span><span class='line'><span class="n">E</span> <span class="n">Edge</span><span class="o">&lt;</span><span class="n">V</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">W</span><span class="o">&gt;::</span><span class="n">getLabel</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">return</span> <span class="n">label</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">V</span><span class="p">,</span> <span class="k">typename</span> <span class="n">E</span><span class="p">,</span> <span class="k">typename</span> <span class="n">W</span><span class="o">&gt;</span>
+</span><span class='line'><span class="n">V</span> <span class="n">Edge</span><span class="o">&lt;</span><span class="n">V</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">W</span><span class="o">&gt;::</span><span class="n">getSrc</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">return</span> <span class="o">*</span><span class="n">src</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">V</span><span class="p">,</span> <span class="k">typename</span> <span class="n">E</span><span class="p">,</span> <span class="k">typename</span> <span class="n">W</span><span class="o">&gt;</span>
+</span><span class='line'><span class="n">V</span> <span class="n">Edge</span><span class="o">&lt;</span><span class="n">V</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">W</span><span class="o">&gt;::</span><span class="n">getDest</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">return</span> <span class="o">*</span><span class="n">dest</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">V</span><span class="p">,</span> <span class="k">typename</span> <span class="n">E</span><span class="p">,</span> <span class="k">typename</span> <span class="n">W</span><span class="o">&gt;</span>
+</span><span class='line'><span class="n">W</span> <span class="n">Edge</span><span class="o">&lt;</span><span class="n">V</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">W</span><span class="o">&gt;::</span><span class="n">getWeight</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">return</span> <span class="n">weight</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+]]></content>
+  </entry>
+  
+</feed>
