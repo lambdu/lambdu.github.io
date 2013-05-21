@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Test Blog]]></title>
+  <title><![CDATA[Love With Food Intern Blog]]></title>
   <link href="http://lambdu.github.io/atom.xml" rel="self"/>
   <link href="http://lambdu.github.io/"/>
-  <updated>2013-05-20T16:33:56-07:00</updated>
+  <updated>2013-05-21T09:29:12-07:00</updated>
   <id>http://lambdu.github.io/</id>
   <author>
     <name><![CDATA[Alec P]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[first love with food blog post]]></title>
+    <link href="http://lambdu.github.io/blog/2013/05/21/first-love-with-food-blog-post/"/>
+    <updated>2013-05-21T08:57:00-07:00</updated>
+    <id>http://lambdu.github.io/blog/2013/05/21/first-love-with-food-blog-post</id>
+    <content type="html"><![CDATA[<p>Hey! Welcome to my blog! This is my first (second) post on my octopress blog.  I am currently interning at Love with Food in Santa Clara.  On this blog I will talk about my experience programming things.</p>
+
+<!--more-->
+
+
+<p>This blog will be a combination of code snippets, relevant media, and maybe some stuff about my experience here thrown in.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[first]]></title>
